@@ -1,1 +1,32 @@
 i have trying to execute the result in git
+
+
+Procedure:
+
+[root@ip-172-31-37-57 gitlab]# touch file2
+[root@ip-172-31-37-57 gitlab]# vi file2
+[root@ip-172-31-37-57 gitlab]# git add .
+[root@ip-172-31-37-57 gitlab]# git commit -m "file2 test"
+[main 66a52a0] file2 test
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2
+[root@ip-172-31-37-57 gitlab]# git push origin main
+Username for 'https://github.com': Ullas@994534
+[root@ip-172-31-37-57 gitlab]# git push origin main
+Username for 'https://github.com': Ullas994534
+Password for 'https://Ullas994534@github.com':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 356 bytes | 356.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Ullas994534/gitlab.git
+   665ade5..66a52a0  main -> main
+[root@ip-172-31-37-57 gitlab]# git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
+Done by UB
