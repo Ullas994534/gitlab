@@ -3,26 +3,26 @@ I have created new repo named as - gitlab
 copy the url 
 got to my ec2 instance terminal
 clone the new,lty created repo with below command
-git clone url
-Initiate the git aftre cloning the repo from github first go insidfe[3~[C[C[C[C[D[D[Cto cloneed directorey with cd command
+git clone https://url
+Initiate the git aftre cloning the repo from github first go insidfele to cloneed directorey with cd command
 git init
 create one file fr testing purpose is the git push working or not
 cat fiel name
 add siome contents in to it 
 git add .
-agit commit -m ""[Dtestcommit
-[Dgit push origin main
+agit commit -m "testcommit"
+git push origin main
 username: abc
-password : the same token which is previously created by us to access the got[C[3~[3~[3~[C[C repo for push 
+password : the same token which is previously created by us to access the git repo for push 
 the token create by us is not only valid for single repo push . Token is valid for entire account to push and pull the contents from and to the account vise-versa. 
-Token is validef [3~d for eniter account containing repo's. Is not limited for any single repo. Token represents push and pull from your local workspace [D[D[D[D[D[D[D[D[D[D[D[A[B[C[C[C[C[C[C[C[C[Cto any repository created on github.
+Token is valid for eniter account containing repo's. Is not limited for any single repo. Token represents push and pull from your local workspace to any repository created on github.
 
 But there is an catch. 
 fif you go with any diffrent repo to push the contaents from your locakl work space . First you may clone the repo to your local work space  and lioginto the same repo folder with hethe help of cd command and then int git in side the repo to push and pull the conmtents.
 
-All abiove said is the Real sennario based KT to Ullas banamanmg[3~[C[Ci . 
+All abiove said is the Real sennario based KT to Ullas banamagi . 
 
 I hope his freezed mind can get this info into the present mind state. 
 
-Rest - Fuck Chinmay!
+Rest - Good Luck............!
 
